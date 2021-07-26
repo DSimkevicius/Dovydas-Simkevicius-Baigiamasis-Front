@@ -36,3 +36,7 @@
   height: 8rem;
   margin-bottom: 1rem;
 }
+
+.product_rating {
+  display: flex;
+}

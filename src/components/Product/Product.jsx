@@ -1,13 +1,10 @@
 import React from "react";
 import "./Product.css";
 
-function Product({ title, image, price, rating }) {
+function Product({ id, title, image, price, rating }) {
   return (
     <div className="product">
-      <img
-        src="https://cdn.shopify.com/s/files/1/0071/9945/7346/products/brussels_startup_guide.png?v=1554923953"
-        alt="book"
-      />
+      <img src={image} alt="book" />
 
       <p>{title}</p>
       <p className="product_price">
