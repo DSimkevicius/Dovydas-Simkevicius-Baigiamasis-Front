@@ -37,6 +37,17 @@
   font-weight: 700;
 }
 
+.header_optionBasket {
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.header_basketCount {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
 .header_nav {
   display: flex;
   justify-content: space-between;
