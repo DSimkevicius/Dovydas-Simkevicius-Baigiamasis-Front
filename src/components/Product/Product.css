@@ -1,0 +1,38 @@
+.product {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0.75rem;
+  max-height: 25rem;
+  min-width: 8rem;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+.product > img {
+  margin-bottom: 1rem;
+  max-height: 15rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+.product > button {
+  background-color: #7df9ff;
+  border: none;
+  border-radius: 1rem;
+  color: #111;
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.product_price {
+  margin-top: 0.25rem;
+}
+
+.product_info {
+  height: 8rem;
+  margin-bottom: 1rem;
+}
