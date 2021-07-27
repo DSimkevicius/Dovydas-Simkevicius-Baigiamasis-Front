@@ -29,9 +29,6 @@ function Header() {
         <div className="header_option">
           <span className="header_optionOne">Orders</span>
         </div>
-        <div className="header_option">
-          <span className="header_optionOne">Prime</span>
-        </div>
         <Link to="/checkout">
           <div className="header_optionBasket">
             <ShoppingCartIcon />
