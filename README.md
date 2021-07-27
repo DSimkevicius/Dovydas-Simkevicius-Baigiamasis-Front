@@ -1,3 +1,10 @@
+A simple e-shop 🛒 website with some features:
+
+⚈ You can create an account / Login
+⚈ Check out products
+⚈ Add and remove products from your cart
+⚈ Watch the subtotal price changes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
