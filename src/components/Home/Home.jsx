@@ -8,7 +8,7 @@ function Home() {
       <div className="home_container">
         <img
           className="home_image"
-          src="https://www.dolphinresearch.org.au/wp-content/uploads/2017/12/Shop-Welcome-Web.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/53c387e0e4b0d5fd0ebcb7e4/1423084091620-WN7H15KJ5RX2A5ID4QD8/Welcome+to+my+Shop-01.png?format=1000w"
           alt="homeimg"
         />
 

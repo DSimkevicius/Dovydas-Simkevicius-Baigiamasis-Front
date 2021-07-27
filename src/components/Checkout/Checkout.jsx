@@ -5,12 +5,13 @@ import Subtotal from "../Subtotal/Subtotal";
 import "./Checkout.css";
 
 function Checkout() {
-  const [{ cart }] = useStateValue();
+  const [{ cart, user }] = useStateValue();
 
   return (
     <div className="checkout">
       <div className="checkout_left">
         <div>
+          <h3>Hello {user?.email}</h3>
           <h2 className="checkout_title">Your shopping Cart</h2>
           {cart.map((item) => (
             <CheckoutProduct
