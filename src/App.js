@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Checkout from "./components/Checkout/Checkout";
@@ -9,6 +8,7 @@ import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 
 function App() {
+  // eslint-disable-next-line
   const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function App() {
         });
       }
     });
-  }, []);
+  }, [dispatch]);
   return (
     <Router>
       <div className="App">
